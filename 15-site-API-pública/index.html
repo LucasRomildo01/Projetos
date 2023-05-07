@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sito API Publica</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js" defer></script>
+  </head>
+  <body class="">
+
+    <main>
+
+      <div id="box-1">
+        <img src="./assets/logo.png" alt="Logo do Star Wars.">
+        <h1>Which Star Wars Character are you?</h1>
+        <button onclick="randomChar()">Find out</button>
+      </div>
+      
+      <div id="box-2">
+        <img src="./assets/darth-vader.svg" alt="Desenho da máscara do personagem Darth Vader.">
+      </div>
+      
+      <div id="box-3">
+        <h2>Your character is:</h2>
+        <div class="content">
+          <img id="img" src="" alt="" />
+          <div class="text">
+            <p id="text-1">Name: <span></span></p>
+            <p id="text-2">Birth date: <span></span></p>
+            <p id="text-3">Hair color: <span></span></p>
+            <p id="text-4">Eye color: <span></span></p>
+            <p id="text-5">Height: <span></span></p>
+          </div>
+        </div>
+        <button onclick="backToStart()">Back</button>
+      </div>
+
+    </main>
+
+    <footer>
+      Powered by
+      <a href="https://github.com/LucasRomildo01" title="" target="_blank"
+        ><b>Lucas Romildo</b></a
+      >.
+    </footer>
+  </body>
+</html>

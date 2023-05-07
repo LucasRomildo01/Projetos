@@ -1,0 +1,154 @@
+/* == GLOBAL == */
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #f0f0f0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  
+  font-size: 1rem;
+
+  transition: 1s;
+}
+
+/* == MAIN == */
+
+main {
+  width: fit-content;
+  height: fit-content;
+
+  text-align: center;
+}
+
+h1,
+footer,
+footer a {
+  color: black;
+  transition: 400ms;
+}
+
+h1 {
+  font-size: 1.2rem;
+  letter-spacing: .8rem;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+
+  margin-bottom: 5rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  visibility: hidden;
+  position: absolute;
+}
+
+label {
+  width: 9rem;
+  height: 4rem;
+  padding: .5rem;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: black;
+  border-radius: 8rem;
+  box-shadow: 0 0 .8rem black;
+  
+  transform: scale(1.5);
+  user-select: none;
+
+  cursor: pointer;
+  transition: 1s;
+}
+
+label.label .slide-btn {
+  width: 3.4rem;
+  height: 3.4rem;
+
+  background-color: white;
+  border-radius: 50%;
+
+  position: absolute;
+  top: .3rem;
+  left: .3rem;
+
+  transform: translateX(0);
+  transition: 500ms;
+}
+
+#btn:checked + .label .slide-btn {
+  transform: translateX(5.1rem);
+}
+
+.fa-moon,
+.fa-sun {
+  width: 30%;
+}
+
+.fa-sun {
+  color: white;
+}
+
+/* == FOOTER == */
+
+footer {
+  position: absolute;
+  bottom: 7rem;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+
+  opacity: .8;
+  transition: 200ms;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+/* == DARK MODE == */
+
+body.dark-mode {
+  background-color: #0d1117;
+}
+
+body.dark-mode label {
+  background-color: white;
+}
+
+body.dark-mode .slide-btn {
+  background-color: black;
+}
+
+body.dark-mode h1,
+body.dark-mode footer,
+body.dark-mode footer a {
+  color: white;
+}

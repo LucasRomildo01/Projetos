@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pesquisar Imagens</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    
+    <header>
+      <h1>Pesquise por Images</h1>
+      <div class="search">
+        <input id="input" type="text" placeholder="Search" />
+        <i id="btn" onclick='imgSearch()' data-feather="search"></i>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid"></div>
+    </main>
+
+    <footer>
+      Powered by
+      <a href="https://github.com/LucasRomildo01" title="" target="_blank"
+        ><b>Lucas Romildo</b></a
+      >.
+    </footer>
+
+  </body>
+</html>
