@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(181, 205, 221);
+}
+
+img{
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(181, 205, 221);
+}
+
+button{
+    background-color: rgb(27, 27, 26);
+    border-radius: 10px;
+    color: aliceblue;
+    width: 10vw;
+    height: 5vh;
+    margin-top: 20%;
+    cursor: pointer;
+}
+span{
+    font-weight: bolder;
+}
+
+input{
+    background-color: rgb(229, 250, 252);
+    border: 2px solid #3F7F96;
+}
+
+#resultado{
+    margin-top: 10px;
+}

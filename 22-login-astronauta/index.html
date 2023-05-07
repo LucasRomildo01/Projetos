@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/256/moon-satellite.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="mainlogin">
+        <div class="esquerdalogin">
+            <h1>Faça Login<br>E entre no nosso mundo</h1>
+            <img src="astronauta.svg" alt="">
+        </div>
+        <div class="direitalogin">
+
+            <div class="card">
+                <form id="form">
+                <h1>LOGIN</h1>
+                <!----><i id="mode_icon" class="bi bi-sun-fill"></i>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label> <!-- nome em cima -->
+                    <input type="text" name="usuario" placeholder="Usuário"> <!-- placeholder é a escrita dentro do input-->
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label> <!-- nome em cima -->
+                    <input type="password" id="campoSenha" name="senha" placeholder="******"> <!-- placeholder é a escrita dentro do input-->
+                    <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+                </div>
+                <a href="#">Lembrar a senha<br></a>
+                <a href="#" class="registrar">Registrar<br></a>
+                <button class="btn-login">Entrar</button>
+            </div>   
+                </form>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

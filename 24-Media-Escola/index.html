@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Escolar</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Veja Sua Média</h1>
+        <img src="classroom.svg">
+        <div class="notas">
+            <span>Nota1:</span>
+            <input type="number" id="nota1" minlength="0">
+            <span>Nota2:</span>
+            <input type="number" id="nota2" minlength="0">
+            <span>Nota3:</span>
+            <input type="number" id="nota3" minlength="0">
+        </div>
+        <div class="media">
+            <button id="button" onclick="calcularMedia()">Calcular</button>
+        </div>
+        <div class="result"></div>
+        <span id="resultado"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
