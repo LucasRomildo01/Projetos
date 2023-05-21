@@ -1,0 +1,32 @@
+.carrossel-2{
+    object-fit: cover;
+    height: 400px;
+}
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
+.text-cor{
+    color: white;
+}
+.radio-cor{
+    color: #DAFF01;
+}
+.botao-lilas {
+    background-color: #9353FF!important;
+}

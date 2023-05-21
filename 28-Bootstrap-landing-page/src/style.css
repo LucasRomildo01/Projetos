@@ -1,0 +1,36 @@
+.imagem-carrossel-um{
+    object-fit: cover;   /*esse propriedade ela fala como o objeto selecionado trabalha em relacao ao conteiner(div) dele.   //   cover=que ela cubra todo o espaço do conteiner porem essa propriedade vai fazer com que ela preencha preservando  a proporção nao vai achatar nem esticar*/
+    height: 400px; /*tamanho banner*/
+    object-position:0 80% ; /*moovimentar imagem dentro do seu eixo  X(esquerda direita) e Y(cima baixo)*/
+}
+.imagem-carrossel-dois{
+    object-fit: cover;   /*esse propriedade ela fala como o objeto selecionado trabalha em relacao ao conteiner(div) dele.   //   cover=que ela cubra todo o espaço do conteiner porem essa propriedade vai fazer com que ela preencha preservando  a proporção nao vai achatar nem esticar*/
+    height: 400px;
+}
+.fonte-titulo{
+font-family: 'pacifico', cursive;
+}   
+.cor-especial/*!important*/{   /*se a cor nao estiver aparecendo pode ser alguma cor do bootstrap reescrevendo de um !important para garantir que essa cor sera usada.*/
+    color: darkred;
+}
+
+.botao-cor-especial{
+    background-color: darkred;
+    color: white;
+}
+.botao-cor-especial:hover{
+    background-color: yellow;
+}
+.borda-cor-especial{
+    border-color: darkred;
+}
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+.card-largura{
+    max-width: 20rem;
+}
+.nav-link{
+    cursor: pointer;
+}

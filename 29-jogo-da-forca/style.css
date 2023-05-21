@@ -1,0 +1,30 @@
+.ur{
+  display: block;
+}
+#palavra{
+text-align: center;
+  font-size: 3rem;
+}
+.borda{
+  border: 2px solid;
+  width: 25rem;
+}
+h1, #tentativas, label
+{
+  text-align: center;
+}
+#tentativas{
+  font: 1em sans-serif;
+  margin-top: 1rem;
+}
+.al{
+text-align: center;  
+}
+
+
+@media (max-width: 420px) {
+.borda{
+  width: 15rem;
+}
+}
+
