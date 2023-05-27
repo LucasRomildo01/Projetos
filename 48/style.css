@@ -1,0 +1,27 @@
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .card-text {
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .btn-ver-mais {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+
+  .card-text-expandido{
+    height: 10rem;
+  }
